@@ -2,3 +2,17 @@
 # create by ganquanzhong
 # show 
 simple sharefiles web projects.
+
+
+使用说明
+    1.本项目是一个简单的Java web应用程序，主要完成文件的上传和下载
+    2.使用步骤
+          2.1 新建数据库sharefiles
+          2.2 修改源文件中db类中的数据库连接参数
+          2.3 讲修改后的项目部署到服务器上，测试运行
+    3.由于项目的功能十分简单，可以进行二次开发
+    
+    
+# develop
+# 
+#
