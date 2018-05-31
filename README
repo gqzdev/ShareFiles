@@ -11,10 +11,7 @@ simple sharefiles web projects.
           2.2 修改源文件中db类中的数据库连接参数
           2.3 讲修改后的项目部署到服务器上，测试运行
     3.由于项目的功能十分简单，可以进行二次开发
-    
-    
-# develop
-![ShareFile](/Simple_Resource_ShareFiles/ShareFiles.png)
+
+![ShareFile](https://github.com/gqzGitHub/Simple_Resource_ShareFiles/blob/master/ShareFiles.png)
 
 
-![Image text](/Simple_Resource_ShareFiles/ShareFiles.png)
