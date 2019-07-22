@@ -1,0 +1,10 @@
+* {
+	border-radius: 0 !important;
+}
+
+.form-upload {
+	position: relative;
+	padding: 10px;
+	background: #e2e2e2;
+}
+

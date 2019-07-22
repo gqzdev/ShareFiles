@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="ShareFiles"
+  id="myeclipse.1520217716713"
+  context-root="/ShareFiles"
+  j2ee-spec="5.0"
+  archive="ShareFiles.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

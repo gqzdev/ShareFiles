@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UserSevlet</servlet-name>
+    <servlet-class>com.gqz.servlet.UserSevlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UserServlet</servlet-name>
+    <servlet-class>com.gqz.servlet.UserServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>BaseServlet</servlet-name>
+    <servlet-class>com.gqz.util.BaseServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>VerifyCodeServlet</servlet-name>
+    <servlet-class>com.gqz.servlet.VerifyCodeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UploadFileServlet</servlet-name>
+    <servlet-class>com.gqz.servlet.UploadFileServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SourceServlet</servlet-name>
+    <servlet-class>com.gqz.servlet.SourceServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DownloadFileServlet</servlet-name>
+    <servlet-class>com.gqz.servlet.DownloadFileServlet</servlet-class>
+  </servlet>
+  
+  <servlet>   
+    <servlet-name>AdminServlet</servlet-name>
+    <servlet-class>com.gqz.servlet.AdminServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>UserSevlet</servlet-name>
+    <url-pattern>/UserSevlet.action</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+    <servlet-name>UserServlet</servlet-name>
+    <url-pattern>/UserServlet.action</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+    <servlet-name>BaseServlet</servlet-name>
+    <url-pattern>/BaseServlet.action</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>VerifyCodeServlet</servlet-name>
+    <url-pattern>/VerifyCodeServlet.action</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+    <servlet-name>UploadFileServlet</servlet-name>
+    <url-pattern>/UploadFileServlet.action</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SourceServlet</servlet-name>
+    <url-pattern>/SourceServlet.action</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DownloadFileServlet</servlet-name>
+    <url-pattern>/DownloadFileServlet.action</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AdminServlet</servlet-name>
+    <url-pattern>/AdminServlet.action</url-pattern>
+  </servlet-mapping>
+
+
+  
+  <!-- 拦截器 CodeFilter -->
+  <filter>
+  	<filter-name>CodeFilter</filter-name>
+  	<filter-class>com.gqz.util.CodeFilter</filter-class>
+  </filter>
+  <filter-mapping>
+  	<filter-name>CodeFilter</filter-name>
+  	<url-pattern>/*</url-pattern>
+  </filter-mapping>
+  
+  
+  <!-- 设置全局错误页面 -->
+   <error-page>
+        <error-code>400</error-code>
+        <location>/error.jsp</location>
+   </error-page>
+  <error-page>
+  		<error-code>404</error-code>
+        <location>/error.jsp</location>
+   </error-page>
+   <error-page>
+        <error-code>405</error-code>
+        <location>/error.jsp</location>
+   </error-page>
+   <error-page>
+        <error-code>500</error-code>
+        <location>/error.jsp</location>
+   </error-page>
+  
+  <welcome-file-list>
+    <welcome-file>first.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
