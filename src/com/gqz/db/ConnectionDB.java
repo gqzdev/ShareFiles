@@ -15,8 +15,6 @@ import java.sql.SQLException;
  */
 public class ConnectionDB {
 	
-	//远程连接数据库
-//	private String url="jdbc:mysql://120.79.179.149:3306/sharefiles?characterEncoding=utf-8&useSSL=true";//数据库连接的地址
 	private String url="jdbc:mysql://127.0.0.1:3306/sharefiles?characterEncoding=utf-8&useSSL=true";//数据库连接的地址
 	private String name="root";//数据库连接的用户名
 	private String password="ganquanzhong";//数据库连接的密码
