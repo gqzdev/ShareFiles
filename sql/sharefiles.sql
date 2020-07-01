@@ -1,9 +1,9 @@
 /*
 Navicat MySQL Data Transfer
 
-Source Server         : gqz_ECS
+Source Server         : gqzdev
 Source Server Version : 50718
-Source Host           : 120.79.179.149:3306
+Source Host           : 172.0.0.1
 Source Database       : sharefiles
 
 Target Server Type    : MYSQL
@@ -106,4 +106,4 @@ INSERT INTO `sf_user` VALUES ('5', 'admin', 'ganquanzhong', '12345678900', '2', 
 INSERT INTO `sf_user` VALUES ('7', '甘全中', 'ganquanzhong', '13995976182', '100', '2018-03-08 18:20:32');
 INSERT INTO `sf_user` VALUES ('8', '幸好有你', 'ganquanzhong', '13670642106', '0', '2018-03-08 22:50:41');
 INSERT INTO `sf_user` VALUES ('9', 'gqzhong520', 'ganquanzhong', '13995976182', '14', '2018-03-10 21:34:10');
-INSERT INTO `sf_user` VALUES ('12', 'gqzhong', 'pwdGAN1996', '13995976182', '2', '2018-03-12 22:17:31');
+INSERT INTO `sf_user` VALUES ('12', 'gqzhong', '123123', '13995976182', '2', '2018-03-12 22:17:31');
